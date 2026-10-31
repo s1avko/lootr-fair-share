@@ -13,6 +13,7 @@ import net.neoforged.neoforge.common.ModConfigSpec;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.RegisterCommandsEvent;
 import net.neoforged.neoforge.event.entity.player.PlayerEvent;
+import noobanidus.mods.lootr.common.api.LootrAPI;
 
 @Mod(FairShare.MODID)
 public final class FairShare {
@@ -53,6 +54,6 @@ public final class FairShare {
 
     public static double share(int players) {
         List<? extends Number> shares = SHARES.get();
-        return shares.isEmpty() ? 1 : shares.get(Math.min(Math.max(players, 1), shares.size()) - 1).doubleValue();
+        return LootrAPI.isTeamLoot() || shares.isEmpty() ? 1 : shares.get(Math.min(Math.max(players, 1), shares.size()) - 1).doubleValue();
     }
 }
