@@ -1,0 +1,4 @@
+{
+  "commands.fairshare.active": "%s active player(s) (played in the last %s days): %s. Each gets %s%% of a loot container's contents.",
+  "commands.fairshare.none": "none"
+}

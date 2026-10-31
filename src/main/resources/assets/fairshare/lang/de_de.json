@@ -1,0 +1,5 @@
+{
+  "commands.fairshare.active": "%s aktive Spieler (in den letzten %s Tagen gespielt): %s. Jeder bekommt %s %% vom Inhalt eines Beutebehälters.",
+  "commands.fairshare.none": "keiner",
+  "fml.menu.mods.info.description.fairshare": "Ein Lootr-Addon: Je mehr Spieler in einer Welt aktiv sind (in der letzten Woche gespielt, bis zu fünf), desto kleiner ist der eigene Anteil jedes Spielers an einer Beutetruhe."
+}

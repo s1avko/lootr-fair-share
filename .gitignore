@@ -1,0 +1,17 @@
+/*
+!/.gitignore
+!/.gitattributes
+!/src/
+!/build.gradle
+!/settings.gradle
+!/gradle.properties
+!/gradlew
+!/gradlew.bat
+!/gradle/
+!/README.md
+!/LICENSE*
+/src/gametest/
+
+.DS_Store
+Thumbs.db
+desktop.ini
